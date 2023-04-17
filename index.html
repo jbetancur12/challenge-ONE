@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="logo">
+            <img src="./assets/logo.png" alt="logo">
+        </div>
+        <div class="textbox">
+            <textarea name="input" id="input" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <p>Solo letras minusculas y sin acentos</p>
+            <div class="btns">
+                <button id="btn-encrypt" class="btn-enc">Encriptar</button>
+                <button id="btn-decrypt" class="btn-desenc">Desencriptar</button>
+            </div>
+        </div>
+        <div class="result">
+            <div id="noMessage">
+                <img src="./assets/Muñeco.png" alt="muñeco">
+                <p class="noMsg">Ningún mensaje fue encontrado</p>
+                <p class="info">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div id="message">
+                <p id="output"></p>
+                <button id="btn-copy">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <!-- <footer>Andres Felipe Maldonado</footer> -->
+    <script src=" script.js"></script>
+</body>
+
+</html>
